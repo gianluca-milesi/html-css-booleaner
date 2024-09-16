@@ -6,12 +6,6 @@ body{
 main{
     margin: 8px;
 }
-h1{
-    padding: 0;
-    margin: 0;
-    font-size: 30px;
-    font-weight: 600;
-}
 
 /* HEADER */
 header{
@@ -27,6 +21,13 @@ header .logo{
 }
 
 /* MAIN */
+/* Section 1 */
+h1{
+    padding: 0;
+    margin: 0;
+    font-size: 30px;
+    font-weight: 600;
+}
 .subtitle, .subtitle-date{
     line-height: 0;
     color: rgb(131, 131, 131);
@@ -39,9 +40,31 @@ header .logo{
 main .section-1 p span{
     color: rgb(78, 160, 255);
 }
+main .section-1 figure{
+    margin: 0;
+}
+main .section-1 figure figcaption{
+    font-size: 10px;
+}
+
+/* Section 2 */
 main .section-2 p span{
     background-color: rgb(255, 255, 0);
 }
+
+/* Section 3 */
 main .section-3 ul{
     line-height: 0px;
+    padding-left: 15px;
+}
+
+/* Section 4 */
+main .section-4 table thead{
+    background-color: rgb(32, 169, 229);
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+main .section-4 table tbody .row-highlight{
+    background-color: rgb(177, 229, 242);
 }
