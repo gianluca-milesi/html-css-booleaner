@@ -1,0 +1,36 @@
+/* GENERAL */
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* HEADER */
+header{
+    background-color: rgb(78, 160, 255);
+    background-image: url(../img/pattern.png);
+    background-size: 25%;
+    height: 80px;
+}
+header .logo{
+    width: 120px;
+    height: 120px;
+    padding-left: 10px;
+}
+
+/* MAIN */
+.subtitle, .subtitle-date{
+    line-height: 1px;
+    color: rgb(131, 131, 131);
+    font-weight: 600;
+}
+.subtitle-date{
+    font-size: 12px;
+    font-weight: 100;
+}
+main .section-1 p span{
+    color: rgb(78, 160, 255);
+}
+main .section-2 p span{
+    background-color: rgb(255, 255, 0);
+}
