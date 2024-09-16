@@ -6,21 +6,17 @@ body{
 main{
     margin: 8px;
 }
-.section-2,
-.section-3,
-.section-4,
-.section-5,
-.section-6{
+.margin-x-40{
     margin: 40px 0;
 }
 
 
 /* HEADER */
 header{
+    height: 80px;
     background-color: rgb(78, 160, 255);
     background-image: url(../img/pattern.png);
     background-size: 25%;
-    height: 80px;
 }
 header .logo{
     width: 120px;
@@ -31,74 +27,72 @@ header .logo{
 
 /* MAIN */
 /* Section 1 */
-.section-1 h1{
+h1{
     padding: 0;
     margin: 0;
     font-size: 30px;
     font-weight: 600;
 }
-.section-1 .subtitle, 
-.section-1 .subtitle-date{
+.subtitle, 
+.subtitle-date{
     line-height: 0;
     color: rgb(128, 128, 128);
     font-weight: 800;
 }
-.section-1 .subtitle-date{
+.subtitle-date{
     font-size: 12px;
     font-weight: 100;
 }
-.section-1 p span{
+p .color-blue{
     color: rgb(78, 160, 255);
 }
-.section-1 figure{
+figure{
     margin: 0;
 }
-.section-1 figure figcaption{
+figure figcaption{
     font-size: 10px;
 }
 
 /* Section 2 */
-.section-2 p span{
+p .highlight-yellow{
     background-color: rgb(255, 255, 0);
 }
 
 /* Section 3 */
-.section-3 ul{
-    line-height: 0px;
+ul{
     padding-left: 15px;
 }
 
 /* Section 4 */
-.section-4 table thead{
+table thead{
     background-color: rgb(32, 169, 229);
     color: white;
     margin: 0;
     padding: 0;
 }
-.section-4 table tbody .row-highlight{
+table tbody .row-highlight{
     background-color: rgb(177, 229, 242);
 }
 
 /* Section 5 */
-.section-5 p span{
+p .highlight-yellow{
     background-color: rgb(255, 255, 0);
 }
 
 /* Section 6 */
-.section-6 h2{
+h2{
     color: rgb(128, 128, 128);
     font-weight: 800;
 }
-.section-6 .paragraph-image-1,
-.section-6 .paragraph-image-2{
+.see-also-image{
+    width: 300px;
+    height: 200px;
     padding: 10px;
     font-weight: 600;
     color: white;
     font-size: 20px;
     background-image: url(../img/monitor.jpg);
-    width: 300px;
-    height: 200px;
 }
-.section-6 .paragraph-image-2{
+.graph-image{
     background-image: url(../img/graph.jpg);
 }
