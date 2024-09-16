@@ -6,6 +6,15 @@ body{
 main{
     margin: 8px;
 }
+.section-1,
+.section-2,
+.section-3,
+.section-4,
+.section-5,
+.section-6{
+    margin: 40px 0;
+}
+
 
 /* HEADER */
 header{
@@ -20,51 +29,77 @@ header .logo{
     padding-left: 10px;
 }
 
+
 /* MAIN */
 /* Section 1 */
-h1{
+.section-1 h1{
     padding: 0;
     margin: 0;
     font-size: 30px;
     font-weight: 600;
 }
-.subtitle, .subtitle-date{
+.section-1 .subtitle, 
+.section-1 .subtitle-date{
     line-height: 0;
-    color: rgb(131, 131, 131);
-    font-weight: 600;
+    color: rgb(128, 128, 128);
+    font-weight: 800;
 }
-.subtitle-date{
+.section-1 .subtitle-date{
     font-size: 12px;
     font-weight: 100;
 }
-main .section-1 p span{
+.section-1 p span{
     color: rgb(78, 160, 255);
 }
-main .section-1 figure{
+.section-1 figure{
     margin: 0;
 }
-main .section-1 figure figcaption{
+.section-1 figure figcaption{
     font-size: 10px;
 }
 
 /* Section 2 */
-main .section-2 p span{
+.section-2 p span{
     background-color: rgb(255, 255, 0);
 }
 
 /* Section 3 */
-main .section-3 ul{
+.section-3 ul{
     line-height: 0px;
     padding-left: 15px;
 }
 
 /* Section 4 */
-main .section-4 table thead{
+.section-4 table thead{
     background-color: rgb(32, 169, 229);
     color: white;
     margin: 0;
     padding: 0;
 }
-main .section-4 table tbody .row-highlight{
+.section-4 table tbody .row-highlight{
     background-color: rgb(177, 229, 242);
+}
+
+/* Section 5 */
+.section-5 p span{
+    background-color: rgb(255, 255, 0);
+}
+
+/* Section 6 */
+.section-6 h2{
+    color: rgb(128, 128, 128);
+    font-weight: 800;
+}
+.section-6 .paragraph-image-1,
+.section-6 .paragraph-image-2{
+    padding: 10px;
+    font-weight: 600;
+    color: white;
+    font-size: 20px;
+    background-image: url(../img/monitor.jpg);
+    width: 300px;
+    height: 200px;
+}
+.section-6 .paragraph-image-2{
+    background-image: url(../img/graph.jpg);
 }
