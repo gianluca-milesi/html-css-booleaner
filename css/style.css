@@ -64,6 +64,16 @@ ul{
 }
 
 /* Section 4 */
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.w-25{
+    width: 25%;
+}
+.w-50{
+    width: 50%;
+}
 table thead{
     background-color: rgb(32, 169, 229);
     color: white;
@@ -84,15 +94,11 @@ h2{
     color: rgb(128, 128, 128);
     font-weight: 800;
 }
-.see-also-image{
+.related-article{
     width: 300px;
     height: 200px;
-    padding: 10px;
     font-weight: 600;
     color: white;
     font-size: 20px;
-    background-image: url(../img/monitor.jpg);
 }
-.graph-image{
-    background-image: url(../img/graph.jpg);
-}
+
